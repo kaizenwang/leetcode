@@ -6,4 +6,7 @@ package removeDuplicatesFromSortedArray;
  */
 public class RemoveDuplicatesFromSortedArray {
 
+    public int removeDuplicates(int[] nums) {
+        return 0;
+    }
 }

@@ -9,7 +9,7 @@ import org.junit.Test;
 public class RemoveDuplicatesFromSortedArrayTest {
 
     @Test
-    public void testSolution(){
+    public void testRemoveDuplicates(){
 
     }
 }
