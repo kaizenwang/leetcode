@@ -12,11 +12,11 @@ import static org.junit.Assert.*;
  */
 public class ContainerWithMostWaterTest {
 
-  private ContainerWithMostWater1 containerWithMostWater;
+  private ContainerWithMostWater2 containerWithMostWater;
 
   @Before
   public void init() {
-    containerWithMostWater = new ContainerWithMostWater1();
+    containerWithMostWater = new ContainerWithMostWater2();
   }
 
   @Test
