@@ -10,11 +10,11 @@ import org.junit.Test;
  */
 public class RemoveDuplicatesFromSortedArrayTest {
 
-  private RemoveDuplicatesFromSortedArray3 fun;
+  private RemoveDuplicatesFromSortedArray fun;
 
   @Before
   public void init() {
-    fun = new RemoveDuplicatesFromSortedArray3();
+    fun = new RemoveDuplicatesFromSortedArray();
   }
 
   @Test
