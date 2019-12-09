@@ -16,11 +16,11 @@ import static org.junit.Assert.*;
  */
 public class ThreeSumTest {
 
-  private ThreeSum threeSum;
+  private ThreeSum2 threeSum;
 
   @Before
   public void init() {
-    threeSum = new ThreeSum();
+    threeSum = new ThreeSum2();
   }
 
   @Test
