@@ -11,11 +11,11 @@ import static org.junit.Assert.*;
  */
 public class RotateArrayTest {
 
-  private RotateArray rotateArray;
+  private RotateArray1 rotateArray;
 
   @Before
   public void init() {
-    this.rotateArray = new RotateArray();
+    this.rotateArray = new RotateArray1();
   }
 
   @Test
