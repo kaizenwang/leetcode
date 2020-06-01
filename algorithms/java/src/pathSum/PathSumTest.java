@@ -9,14 +9,6 @@ import org.junit.Test;
  */
 public class PathSumTest {
 
-    //             5
-//            / \
-//            4   8
-//            /   / \
-//            11  13  4
-//            /  \      \
-//            7    2      1
-
     @Test
     public void hasPathSum() {
         PathSum sum = new PathSum();
@@ -37,7 +29,7 @@ public class PathSumTest {
         leftLeft.left = leftLeftLeft;
         leftLeft.right = leftLeftRight;
         rightRight.right = rightRightRight;
-        Assert.assertTrue(sum.hasPathSum(root, 22));
+        Assert.assertTrue(sum.hasPathSum2(root, 22));
     }
 
     @Test
@@ -45,6 +37,6 @@ public class PathSumTest {
         PathSum sum = new PathSum();
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
-        Assert.assertFalse(sum.hasPathSum(root, 1));
+        Assert.assertFalse(sum.hasPathSum2(root, 1));
     }
 }

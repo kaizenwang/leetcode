@@ -19,6 +19,6 @@ public class BinaryTreeLevelOrderTraversalTest {
         node.right = node1;
         node1.left = new TreeNode(15);
         node1.right = new TreeNode(7);
-        Assert.assertEquals(Arrays.asList(Arrays.asList(3), Arrays.asList(9, 20), Arrays.asList(15, 7)), levelOrder.levelOrder(node));
+        Assert.assertEquals(Arrays.asList(Arrays.asList(3), Arrays.asList(9, 20), Arrays.asList(15, 7)), levelOrder.levelOrder1(node));
     }
 }
